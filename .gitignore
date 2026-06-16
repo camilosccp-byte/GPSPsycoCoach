@@ -47,3 +47,24 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+
+# CONFIGURACIÓN PERSONALIZADA PARA PYTHON (RETICULATE)
+
+
+# Bloquear el entorno virtual de Python (¡Clave!)
+# Evita subir gigabytes de librerías de librosa o numpy a GitHub
+env_futbol_ai/
+venv/
+.venv/
+env/
+
+# Bloquear archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Bloquear archivos pesados de audio de entrenamiento (Raw Data)
+data/raw/*.wav
+data/raw/*.mp3
