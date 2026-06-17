@@ -71,8 +71,8 @@ Rscript src/00_acoustic_analysis.R
 Rscript src/01_data_cleaning.R
 ```
 
-### Paso 2: Lanzamiento del Centro de Mando Terrestre
-Abre el panel interactivo diseñado para el psicólogo deportivo. Permite dictar palabras activadoras por voz en vivo y observar el mapa de calor de picos de estrés cruzado con las Celdas de Voronoi:
+### Paso 2: Lanzamiento del Centro de Mando Terrestre e Inteligencia en Vivo
+Abre el panel interactivo diseñado para el cuerpo técnico y el psicólogo deportivo. El sistema permite dictar palabras activadoras por voz en tiempo real, visualizar mapas de calor cruzados con las Celdas de Voronoi y activar el **Módulo de Alertas Preventivas de Remontada (IFRM)**, el cual notificará al banquillo si la línea defensiva sufre desgaste cognitivo severo ante las ventanas de goles históricos del rival.
 ```R
 shiny::runApp("src/app.R")
 ```
