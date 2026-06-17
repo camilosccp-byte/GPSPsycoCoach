@@ -43,3 +43,14 @@ $$IMCC = \frac{1}{N} \sum_{i=1}^{N} P(\text{Jugador}_i = \text{Alineado} \mid \t
 - **IMCC $\ge$ 0.75 (Gobernabilidad Sostenible):** El cuerpo técnico posee el control psicofisiológico del grupo. Existe la masa crítica necesaria para ejecutar el modelo de juego bajo presión.
 - **0.60 $\le$ IMCC < 0.75 (Intervención de Emergencia del Psicólogo):** Existen cortocircuitos de comunicación en subgrupos específicos (ej. el DT le grita a perfiles Estables). El psicólogo debe intervenir auditando los entrenamientos y reentrenando la voz del entrenador.
 - **IMCC < 0.60 (Ruptura Estructural / Inviabilidad Financiera):** El entrenador ha perdido la capacidad de regular u optimizar el estado emocional de la plantilla. Continuar con el proceso devaluará los activos económicos del club (los jugadores) y destruirá el rendimiento deportivo.
+
+## 4. El Índice de Fatiga por Resistencia Mental (IFRM) ante Amenaza Externa
+
+El sistema automatiza alertas preventivas en el banquillo mediante el cálculo del **IFRM**. Este modelo postula que los equipos con menor presupuesto experimentan un desgaste mental masivo acumulado al sostener un resultado favorable frente a rivales de mayor jerarquía histórica (Fenómeno de *Collective Choking under Threat*).
+
+### Algoritmo de Activación del Aviso:
+El software ejecuta un observador reactivo basado en dos condiciones unificadas:
+1. **Condición Contextual Externa:** El cronómetro del encuentro entra en la ventana de peligro estadístico del rival (ej: Minuto $\ge$ 75) mientras el marcador se mantiene empatado o favorable.
+2. **Condición Fisiológica Interna:** La masa crítica del bloque defensivo (mínimo 2 defensores centrales o laterales) supera su umbral de pánico adaptado por personalidad DISC de forma sostenida.
+
+**Impacto Táctico:** Al encenderse la notificación en la pantalla de control, el cuerpo técnico obtiene una ventana de acción de 5 a 10 minutos previos a la desatención posicional real del atleta, permitiendo realizar una sustitución dirigida por fatiga mental o aplicar un anclaje respiratorio de emergencia colectiva.
