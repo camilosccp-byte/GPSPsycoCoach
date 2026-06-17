@@ -155,6 +155,34 @@ server <- function(input, output, session) {
     registrar_evento(input$manual_input)
     updateTextInput(session, "manual_input", value = "") # Limpiar input
   })
+
+observe({
+    minuto_actual <- input$minuto_partido
+    marcador_favorable <- TRUE # Simulación de que el equipo va ganando el partido
+    
+    # Extraemos la frecuencia cardíaca instantánea actual de toda la línea de defensas
+    defensas_fc <- datos_integrados %>% 
+      filter(posicion %in% c("DFC", "LI", "LD") & timestamp == max(timestamp)) %>% 
+      pull(fc_bpm)
+    
+    # Activación: Ventana crítica del rival (Minuto 75 en adelante) defendiendo resultado
+    if (minuto_actual >= 75 && marcador_favorable == TRUE) {
+      
+      # Contamos cuántos de nuestros defensas superan el nivel de fatiga mental (170 BPM)
+      defensas_saturados <- sum(defensas_fc > 170)
+      
+      # Si la masa crítica defensiva está en pánico (2 o más jugadores), lanzar aviso
+      if (defensas_saturados >= 2) {
+        showNotification(
+          ui = paste("🚨 ALERTA TÁCTICA BANQUILLO (Min", minuto_actual, "): Desgaste cognitivo defensivo.",
+                     "Riesgo crítico de desatención posicional ante tendencias del rival."),
+          type = "error", 
+          duration = 10, 
+          closeButton = TRUE
+        )
+      }
+    }
+  })
   
   # OUTPUTS DE RENDIMIENTO Y TARJETAS
   output$box_disc <- renderValueBox({
