@@ -17,6 +17,7 @@ Este documento detalla las próximas fases de desarrollo tecnológico y científ
 - **Benchmarking de Enfoque Histórico:** Registrar las firmas biometrométricas (FC y RPM estables bajo asedio) de equipos de bajo presupuesto que logran sostener victorias históricas. Estos rangos se exportarán como "Priors de Resistencia" para recrear dicho escenario de estrés en los entrenamientos controlados del club.
 - **Anclaje Táctico de Emergencia:** Validar qué palabras de instrucción precisas (ej: *"Línea"*, *"Bloque"*) estabilizan la frecuencia respiratoria colectiva en los últimos 15 minutos de partido, evitando la pérdida de foco mental y neutralizando la remontada del rival.
 
+- Esta ultima ya ha sido mejorada, siendo agregada como una alerta en los controles de la Shiny App! Sientete libre en todo caso, de mejorar o comentar el código, si sientes que algo podría ser mejorado!
 
 ## 📈 Fase 5: Módulo Comercial y Smart Scouting Empresarial
 - **Simulador de Fichajes (Moneyball Psicológico):** Crear una interfaz en la Shiny App donde la directiva pueda cargar el perfil de personalidad de un fichaje estrella y simular matemáticamente cómo afectará su llegada al Índice de Masa Crítica Colectiva (IMCC) del equipo bajo el mando del técnico actual.
